@@ -20,6 +20,12 @@
         "appServiceAppName": {
             "value": "ksulamanidze-fe-dev"
         },
+        "azureMonitorName": {
+            "value": "ksulamanidze-am"
+        },
+        "appInsightsName": {
+            "value": "ksulamanidze-ai"
+        },
         "location": {
             "value": "Poland Central"
         }
