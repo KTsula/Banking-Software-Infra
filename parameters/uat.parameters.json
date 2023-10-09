@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "environmentType": {
+            "value": "prod"
+        },
+        "postgreSQLServerName": {
+            "value": "ksulamanidze-dbsrv-uat"
+        },
+        "postgreSQLDatabaseName": {
+            "value": "ksulamanidze-db-uat"
+        },
+        "appServicePlanName": {
+            "value": "ksulamanidze-asp-uat"
+        },
+        "appServiceAPIAppName": {
+            "value": "ksulamanidze-be-uat"
+        },
+        "appServiceAppName": {
+            "value": "ksulamanidze-fe-uat"
+        },
+        "azureMonitorName": {
+            "value": "ksulamanidze-am-uat"
+        },
+        "appInsightsName": {
+            "value": "ksulamanidze-ai-uat"
+        },
+        "location": {
+            "value": "Korea Central"
+        }
+    }
+}

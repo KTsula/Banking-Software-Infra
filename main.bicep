@@ -11,7 +11,7 @@ param postgreSQLServerName string = 'ie-bank-db-server-dev'
 @sys.description('The PostgreSQL Database name')
 @minLength(3)
 @maxLength(24)
-param postgreSQLDatabaseName string = 'ie-bank-db'
+param postgreSQLDatabaseName string = 'ie-bank-db' // default DBNAME (but it's being overwritten by dev.parameters.json)
 @sys.description('The App Service Plan name')
 @minLength(3)
 @maxLength(24)
@@ -54,8 +54,8 @@ resource postgresSQLServer 'Microsoft.DBforPostgreSQL/flexibleServers@2022-12-01
     tier: 'Burstable'
   }
   properties: {
-    administratorLogin: 'iebankdbadmin'
-    administratorLoginPassword: 'IE.Bank.DB.Admin.Pa$$'
+    administratorLogin: 'iebankdbadmin' // DBUSER
+    administratorLoginPassword: 'IE.Bank.DB.Admin.Pa$$' // DBPASS
     createMode: 'Default'
     highAvailability: {
       mode: 'Disabled'
