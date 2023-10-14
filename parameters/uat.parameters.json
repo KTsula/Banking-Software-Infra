@@ -6,28 +6,28 @@
             "value": "prod"
         },
         "postgreSQLServerName": {
-            "value": "ksulamanidze-dbsrv-uat"
+            "value": "keti-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "ksulamanidze-db-uat"
+            "value": "keti-db-uat"
         },
         "appServicePlanName": {
-            "value": "ksulamanidze-asp-uat"
+            "value": "keti-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "ksulamanidze-be-uat"
+            "value": "keti-be-uat"
         },
         "appServiceAppName": {
-            "value": "ksulamanidze-fe-uat"
+            "value": "keti-fe-uat"
         },
         "azureMonitorName": {
-            "value": "ksulamanidze-am-uat"
+            "value": "keti-am-uat"
         },
         "appInsightsName": {
-            "value": "ksulamanidze-ai-uat"
+            "value": "keti-ai-uat"
         },
         "location": {
-            "value": "Poland Central"
+            "value": "Korea Central"
         }
     }
 }
